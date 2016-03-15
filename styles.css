@@ -1,0 +1,104 @@
+body {
+	margin:0;
+	font-size:16px;
+	line-height:1.6em;
+	text-align:justify;
+	background:url(images/cheap_diagonal_fabric.png);
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color:red;
+	text-decoration:none;
+}
+
+a:hover {
+	color:lime;
+}
+
+h1 {
+	color:#fba0c5;
+	text-shadow: 4px 4px 4px #aaa;
+	font-size:48px;
+}
+
+/* Layout
+-----------------------------------------*/
+
+header,
+.container,
+footer {
+	margin:0 auto;
+	width:88%;
+	max-width:960px;
+}
+
+
+.wrapper {
+	background:rgba(255,255,255,0.5);
+	box-shadow: 
+	padding:1em 0;
+}
+
+
+/* Animation
+-----------------------------------------*/
+
+@keyframes spin {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+.rotate:hover {
+	animation: spin 5s infinite;
+}
+
+@keyframes spin-reverse {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.rotate-reverse:hover {
+	animation: spin-reverse 5s infinite;
+}
+
+@keyframes spin-forward {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+.rotate:hover {
+	animation: spin-forward 5s infinite;
+}
+
+@keyframes spin-backward {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.rotate-backward:hover {
+	animation: spin-backward 5s infinite;
+}
+
+
+
+
+
+
+
